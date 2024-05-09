@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  background-color: blue;
+  height: 100px;
+  display: flex; 
+  justify-content: space-around; 
+}
+
+.rectangulo {
+  width: 200px;
+  height: 80px;
+ margin-top: 10px;
+  background-color: white;
+}
+
+header {
+  background-color: brown;
+  display: grid;
+  grid-template-columns: auto 1fr; 
+  grid-gap: 10px;
+}
+
+.Banner {
+  background-color: pink;
+  height: 300px;
+  width: 800px;
+}
+
+.Logo, .Login, .Form {
+  background-color: green;
+  height: 90px;
+  width: 200px;
+}
+
+.Logo {
+  grid-row: 1; 
+  grid-column: 2; 
+}
+
+.Login {
+  grid-row: 2; 
+  grid-column: 2; 
+}
+
+.Form {
+  grid-row: 3; 
+  grid-column: 2; 
+}
+
+.Banner {
+  grid-row: span 3; 
+  grid-column: 1; 
+}
+
+main {
+  display: flex;
+}
+
+.aside1{
+  width: 200px;
+  height: 500px;
+  background-color: blueviolet;
+}
+
+.article{
+  width: calc(100% / 3); /* Divide el espacio en tres partes iguales */
+  height: 500px;
+  background-color: gold;
+}
+
+.aside2{
+  width: 200px;
+  height: 500px;
+  background-color: blueviolet;
+}
+
+footer {
+  clear: both; 
+  width: 1000px;
+  height: 50px;
+  background-color: darksalmon;
+}

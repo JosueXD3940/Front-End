@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blue;
+}
+
+.Rectangulo1, .Rectangulo3 {
+    float: left; 
+}
+
+.Rectangulo1{
+    width: 500px; 
+    height: 250px;
+    background-color: fuchsia
+}
+
+.Rectangulo3{
+    width: 400px; 
+    height: 450px;
+    background-color: palevioletred;
+}
+
+.rectangulo2, .rectangulo4 {
+    float: right; 
+}
+
+.rectangulo2{
+    width: 500px; 
+    height: 250px;
+    background-color: red
+}
+
+.rectangulo4{
+    width: 400px; 
+    height: 450px;
+    background-color: teal;
+}
+
+nav {
+    clear: both; 
+    width: 1400px;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+footer {
+    clear: both; 
+    width: 1400px;
+    height: 50px;
+    background-color: darksalmon;
+}
